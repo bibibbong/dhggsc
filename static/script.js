@@ -1,24 +1,10 @@
 // 샘플 학생 데이터 (학번 + 이름 → 계정 ID, 비밀번호)
 const studentData = [
-  {
-    id: '202301',
-    name: '홍길동',
-    googleId: '202301@school.edu',
-    googlePw: 'hong1234'
-  },
-  {
-    id: '202302',
-    name: '김철수',
-    googleId: '202302@school.edu',
-    googlePw: 'kim5678'
-  },
-  {
-    id: '202303',
-    name: '이영희',
-    googleId: '202303@school.edu',
-    googlePw: 'leeabcd'
-  }
+  { id: '202301', name: '홍길동', googleId: '202301@school.edu', googlePw: 'hong1234' },
+  { id: '202302', name: '김철수', googleId: '202302@school.edu', googlePw: 'kim5678' },
+  { id: '202303', name: '김지영', googleId: '202303@school.edu', googlePw: 'leeabcd' }
 ];
+
 
 // DOM 요소 가져오기
 const form = document.getElementById('searchForm');
