@@ -1,0 +1,89 @@
+/* 전체 폰트 및 배경 설정 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 전체 컨테이너 스타일 */
+.container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 480px;
+}
+
+/* 제목 스타일 */
+.container h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 28px;
+  color: #1a202c;
+}
+
+/* 입력 폼 스타일 */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #4299e1;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3);
+}
+
+/* 버튼 스타일 */
+button {
+  background-color: #4299e1;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
+
+/* 검색 결과 영역 */
+#result {
+  margin-top: 32px;
+  padding: 24px;
+  background-color: #edf2f7;
+  border-radius: 12px;
+  border: 1px solid #cbd5e0;
+}
+
+#result h2 {
+  margin-top: 0;
+  color: #2d3748;
+}
+
+.hidden {
+  display: none;
+}
